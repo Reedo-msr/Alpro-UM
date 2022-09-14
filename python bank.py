@@ -7,8 +7,8 @@ match name:
     case "Hello"|"Hello, Newman":
         print("$0")
     case "How are you doing?":
-        print("20$")
+        print("$20")
     case "What's happening?":
-        print("100")
+        print("$100")
     case _:
         print("???")
