@@ -1,14 +1,15 @@
 #Editor Muhammad Syifa Ridhoni (220535604679)
 #S1 Teknik Informatika Offering C
 #Tugas Algoritma Pemrograman
-name = input("What do you want to type? (Hello/Hello, Newman/How are you doing?/What's happening?) ").strip()
 
-match name:
-    case "Hello"|"Hello, Newman":
+def greeting(bismillah):
+    bismillah = bismillah.strip().lower()
+    if "hello" in bismillah:
         print("$0")
-    case "How are you doing?":
+    elif bismillah[0] == "h":
         print("$20")
-    case "What's happening?":
+    else:
         print("$100")
-    case _:
-        print("???")
+
+alhamdulillah = input("Input Greeting: ")
+greeting(alhamdulillah)
