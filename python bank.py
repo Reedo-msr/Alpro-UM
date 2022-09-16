@@ -1,5 +1,6 @@
 #Tugas Algoritma Pemrograman
 #Muhammad Syifa Ridhoni (220535604579)
+#S1 Teknik Informatika Offering C
 
 
 def greeting(bismillah):
